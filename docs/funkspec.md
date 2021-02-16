@@ -1,3 +1,19 @@
+## 3. Követelmény lista
+
+Modul | ID | Név | Kifejtés
+--- | --- | --- | --------------------------------------------------
+Jogosultság | K1 | Bejelentkezési felület | A felhasználó a socialmedia/github fiókja segítségével jelentkezhet be. 
+Jogosultság | K2 | Regisztrációs felület | A felhasználó a socialmedia/github fiókja segítségével regisztrálhat. 
+Jogosultság | K3 | Jogosultsági szintek | -Admin <br> -Felhasználó <br> -Vendég
+Felület | K4 | Profil | A felhasználó részletes adatai, ranggal és pontokkal.
+Felület | K5 | Posztolás (Kérdés feltétel) | A felhasználó, bejelentkezés után kérdést tehet fel különböző témákban a többi felhasználónak.
+Felület | K6 | Posztolás (Válasz adás) | A felhasználó, bejelentkezés után válaszolhat, a többi felhasználó által különböző témákban feltett kérdésekre.
+Felület | K7 | Keresés | Különböző témákban lehet kérdéseket/válaszokat keresni.
+Modifikáció | K8 | Nem megfelelő kérdések moderálása | A nem megfelelő kérdéseket az adminisztrátor törölheti, szerkesztheti, moderálhatja.
+Modifikáció | K9 | Nem megfelelő válaszok moderálása | A nem megfelelő válaszokat az adminisztrátor törölheti, szerkesztheti, moderálhatja.
+Modifikáció | K10 | Felhasználó jogosultság módosítása | Az adminisztrátor módosíthatja a többi felhasználó jogosultsági szintjét
+
+
 ## 4. Funkcionális követelmények
 
 1. Bejelentkezési felület
