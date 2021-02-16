@@ -38,3 +38,10 @@ Jogosultságok:
     - Vendég
     - Felhasználó
     - Admin
+
+
+## 6. Használati esetek
+
+Adminisztrátor: Az admin felel a rendszer problémamentes működéséért. Hozzá kell tudnia férni a felhasználók listájához, a felhasználók jogosultsági szintjének módosítása és a felhasználók letiltása miatt. Emellett a Kérdések/válaszok listáját is módosíthatja, moderálhatja, törölheti és szerkesztheti az egyes elemeit.
+Felhasználó: Bejelentkezés nélkül: Olvashatóak, kereshetőek a kérdések és válaszok.
+Bejelentkezés után: Kérdéseket tehet fel különböző témákban a többi felhasználónak. Különböző témákban válaszolhat, a többi felhasználó által feltett kérdésekre. Minősítheti az adott válaszokat, pontokat gyűjthet, amely által különböző rangokat szerezhet.
