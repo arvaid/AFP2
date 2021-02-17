@@ -76,7 +76,9 @@ A mai világban az internet használata mindennapos, ezen keresztül tájékozó
 ## 8. Használati esetek
 
 Adminisztrátor: Az admin felel a rendszer problémamentes működéséért. Hozzá kell tudnia férni a felhasználók listájához, a felhasználók jogosultsági szintjének módosítása és a felhasználók letiltása miatt. Emellett a Kérdések/válaszok listáját is módosíthatja, moderálhatja, törölheti és szerkesztheti az egyes elemeit.
+
 Felhasználó: Bejelentkezés nélkül: Olvashatóak, kereshetőek a kérdések és válaszok.
+
 Bejelentkezés után: Kérdéseket tehet fel különböző témákban a többi felhasználónak. Különböző témákban válaszolhat, a többi felhasználó által feltett kérdésekre. Minősítheti az adott válaszokat, pontokat gyűjthet, amely által különböző rangokat szerezhet.
 
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket:
@@ -87,9 +89,13 @@ Ellenben a regisztrált felhasználók kezében több lehetőség van, ők felte
 ## 10. Képernyő tervek:
 
 Login : socialmedia/github fiókja segitségével jelentkezhet be, ha sikeres akkor bejelentkezés, hiba esetén Error Page.
+
 Főképernyő : Legfrissebb Posztok megjelenítése,bejelentkezés esetén Posztokra reagálhatóság ellenkező esetben üzenet hogy csak bejelentkezve lehet válaszolni/reagálni a Posztokra. A képernyőn reklámbannerek lesznek elhelyezve.
+
 Poszt/Kérdés szerkesztő felület: ezen a felületen tudják a felhasználók a Posztot/kérdést megírni.
+
 Profil : A felhasználó részletes adatai, ranggal és pontokkal.
+
 Keresés : Különböző témákban lehet kérdéseket/válaszokat keresni.
 
 ## 11. Forgatókönyv:
