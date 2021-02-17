@@ -4,6 +4,12 @@
 
 Egy olyan rendszert fejlesztünk, ami lehetővé teszi, hogy a felhasználók kérdéseket tehetnek fel, illetve a többi felhasználó kérdéseire is tudnak válaszolni. A kérdések különböző kategóriákba sorolva jelennek meg, így megkönnyítve a keresést.
 
+## 2. Jelenlegi helyzet
+
+Mivel a magyar nyelven elérhető legnagyobb [hasonló magyar weboldal](https://www.gyakorikerdesek.hu/) a komolytalan hangvételéről híres, könnyen betölthetünk egy piaci rést egy nála hasznosabb alkalmazás elkészítésével.
+
+Az oldal jelentős hirdetőfelületet alkothatna, amennyiben elég népszerűvé válna.
+
 ## 3. Követelmény lista
 
 Modul | ID | Név | Kifejtés
