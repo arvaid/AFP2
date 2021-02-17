@@ -45,7 +45,7 @@ Jogosultságok:
     - Admin
 
 ## 5. Rendszerre vonatkozó követelmények, szabályok
-### Front end (Next.js)
+### Frontend (Next.js)
 - HTML
 - CSS, SCSS
 - JS, jQuery
@@ -53,7 +53,7 @@ Jogosultságok:
 - Fontawesome
 - Google fonts, google ads
 
-### Back end
+### Backend
 - Nextjs - Node
 - SQL - MongoDB
 

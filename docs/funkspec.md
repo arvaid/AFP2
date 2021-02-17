@@ -53,8 +53,16 @@ Jogosultságok:
 
 
 ## 5. Rendszerhez tartozó követelmények:
-	Front end (Next.js): HTML, CSS,SCSS, JS/jQuery, Bootstrap, Fontawesome, Google fonts, Google ads
-	Back end: Next.js - Node, SQL - MongoDB
+### Frontend (Next.js): 
+- HTML, CSS,SCSS
+- JS/jQuery
+- Bootstrap
+- Font Awesome
+- Google fonts
+- Google Ads
+### Backend: 
+- Next.js - Node
+- SQL - MongoDB
 
 ## 6. Jelenlegi üzleti folyamatok modellje
 
@@ -99,21 +107,21 @@ Ellenben a regisztrált felhasználók kezében több lehetőség van, ők felte
 
 ## 10. Képernyő tervek:
 
-Login : socialmedia/github fiókja segitségével jelentkezhet be, ha sikeres akkor bejelentkezés, hiba esetén Error Page.
+Login: socialmedia/github fiókja segitségével jelentkezhet be, ha sikeres akkor bejelentkezés, hiba esetén Error Page.
 
-Főképernyő : Legfrissebb Posztok megjelenítése,bejelentkezés esetén Posztokra reagálhatóság ellenkező esetben üzenet hogy csak bejelentkezve lehet válaszolni/reagálni a Posztokra. A képernyőn reklámbannerek lesznek elhelyezve.
+Főképernyő: Legfrissebb Posztok megjelenítése,bejelentkezés esetén Posztokra reagálhatóság ellenkező esetben üzenet hogy csak bejelentkezve lehet válaszolni/reagálni a Posztokra. A képernyőn reklámbannerek lesznek elhelyezve.
 
 Poszt/Kérdés szerkesztő felület: ezen a felületen tudják a felhasználók a Posztot/kérdést megírni.
 
-Profil : A felhasználó részletes adatai, ranggal és pontokkal.
+Profil: A felhasználó részletes adatai, ranggal és pontokkal.
 
-Keresés : Különböző témákban lehet kérdéseket/válaszokat keresni.
+Keresés: Különböző témákban lehet kérdéseket/válaszokat keresni.
 
 ## 11. Forgatókönyv:
 
-	A projekthez először elkészítjük a képernyőket,felületeket (frontend), ezután megírjuk a hozzájuk tartozó kódokat (backend).
-	Adatbázis létrehozása, tervezése.
+A projekthez először elkészítjük a képernyőket,felületeket (frontend), ezután megírjuk a hozzájuk tartozó kódokat (backend).
+Adatbázis létrehozása, tervezése.
 
 ## 12. Fogalomszótár:
-	-
-	-
+-
+-
