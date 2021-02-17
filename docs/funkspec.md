@@ -117,8 +117,15 @@ Ellenben a regisztrált felhasználók kezében több lehetőség van, ők felte
 
 ## 11. Forgatókönyv:
 
-A projekthez először elkészítjük a képernyőket,felületeket (front end), ezután megírjuk a hozzájuk tartozó kódokat (back end).
-Adatbázis létrehozása, tervezése.
+A kérdés posztolásához először be kell jelentkezni, illetve ha ezt még nem tettük meg, regisztrálni. Lehetőség van az oldalt bejelentkezés nélkül is használni, ekkor azonban csak a már meglévő kérdéseket és válaszokat olvashatjuk, magunk nem hozhatunk létre újat.
+
+**Szereplők**: Kérdező, Válaszadó(k)
+
+A Kérdező felhasználó először kiválasztja az új kérdés funkciót, ami egy gombról vagy menüből lesz elérhető. Egy form jelenik meg, ahol egy rövid formában kell megadni a kérdést, valamint egy hosszabban kifejtett magyarázatot, további részleteket. A Kérdező megadhat egy kategórát is, ha ezt nem teszi meg, a kérdés az Általános kategóriába kerül.
+A Mentés gomb megnyomása után a kérdés megjelenik a főoldalon, illetve a saját kategóriájában is.
+
+Ha egy másik felhasználó szeretne válaszolni a kérdésre, annak címére kattintva megnyitja a kérdéshez tartozó oldalt, és a kérdés alatti formban megírhatja válaszát.
+Miután elmentette, a válasz megjelenik, ha több válasz is érkezett a kérdésre, azok egymás alatt.
 
 ## 12. Fogalomszótár:
 Fogalom | Leírás

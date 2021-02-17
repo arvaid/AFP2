@@ -84,6 +84,3 @@ SQL (Structured Query Langauage) | Adatbázisrendszerekben használt nyelv, adat
 MongoDB | Egy NoSQL típusú adatbáziskezelő rendszer. JSON objektumokat használ az adattárolásra.
 NoSQL (Not Only SQL) | A hagyományos (SQL-alapú, vagy relációs) adatbázisrendszerektől eltérő rendszerek
 JSON (JavaScript Object Notation) | Egy adatközlő formátum, amely a JavaScript nyelv object adattípusán alapul.
-
-
-## 8. Adatbázis terv
