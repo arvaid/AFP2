@@ -126,7 +126,7 @@ Adatbázis létrehozása, tervezése.
 
 ## 12. Fogalomszótár:
 | Fogalom | Leírás |
-| - | - |
+| --- | --- |
 | HTML (HyperText MarkUp Langage) | A weboldalak tartalmának leírására használt jelölő nyelv. [Szabvány](https://www.w3.org/standards/webdesign/htmlcss).  |
 | CSS (Cascading Style Sheets) | A weboldalak formázásához használt jelölő nyelv. [Szabvány](https://www.w3.org/standards/webdesign/htmlcss). |
 | JavaScript / JS | Egy, a webböngészőben futó programok írására is alkalmas programozási nyelv. A projektben az interaktivítás növeléséhez használjuk. |
