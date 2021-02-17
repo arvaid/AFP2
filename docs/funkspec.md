@@ -6,7 +6,7 @@ Egy olyan rendszert fejlesztünk, ami lehetővé teszi, hogy a felhasználók k�
 
 ## 2. Jelenlegi helyzet
 
-Mivel a magyar nyelven elérhető legnagyobb [hasonló magyar weboldal](https://www.gyakorikerdesek.hu/) a komolytalan hangvételéről híres, könnyen betölthetünk egy piaci rést egy nála hasznosabb alkalmazás elkészítésével.
+Mivel a magyar nyelven elérhető legnagyobb [hasonló magyar weboldal](https://www.gyakorikerdesek.hu/) a komolytalan hangvételéről híres, könnyen betölthetünk egy piaci rést egy nála hasznosabb webes alkalmazás elkészítésével.
 
 Az oldal jelentős hirdetőfelületet alkothatna, amennyiben elég népszerűvé válna.
 
