@@ -41,6 +41,17 @@ Jogosultságok:
     - Admin
 
 
+## 5. Jelenlegi üzleti folyamatok modellje
+
+A mai világban az internet használata mindennapos, ezen keresztül tájékozódunk minden olyan dologról, amit nem tudunk. Egy olyan webes felület, ahol a felhasználók különböző kérdéseket tehetnek fel, amelyekre más valós felhasználók adhatnak választ. Vagy akár csak keresgélni, nézelődni is lehet a kategóriákban, megkönnyítheti az emberek életét. Egy kérdésre akár több felhasználó is válaszolhat, így ki lehet választani a leg optimálisabb lehetőséget közülük.
+
+1. Kérdés felmerülése
+2. Válasz keresése:
+    - interneten keresztül történik
+    - különböző oldalak/cikkek átnézése által => hosszú folyamat => nem biztos, hogy eredményes
+    - különböző oldalak, különböző válasz lehetőségekkel => nem tudjuk, melyik helyes
+
+
 ## 6. Használati esetek
 
 Adminisztrátor: Az admin felel a rendszer problémamentes működéséért. Hozzá kell tudnia férni a felhasználók listájához, a felhasználók jogosultsági szintjének módosítása és a felhasználók letiltása miatt. Emellett a Kérdések/válaszok listáját is módosíthatja, moderálhatja, törölheti és szerkesztheti az egyes elemeit.
