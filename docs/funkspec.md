@@ -41,11 +41,11 @@ Jogosultságok:
     - Admin
 
 
-##Rendszerhez tartozó követelmények:
+## 5. Rendszerhez tartozó követelmények:
 	Front end (Next.js): HTML, CSS,SCSS, JS/jQuery, Bootstrap, Fontawesome, Google fonts, Google ads
 	Back end: PHP - MVC, SQL - MongoDB
 
-## 5. Jelenlegi üzleti folyamatok modellje
+## 6. Jelenlegi üzleti folyamatok modellje
 
 A mai világban az internet használata mindennapos, ezen keresztül tájékozódunk minden olyan dologról, amit nem tudunk. Egy olyan webes felület, ahol a felhasználók különböző kérdéseket tehetnek fel, amelyekre más valós felhasználók adhatnak választ. Vagy akár csak keresgélni, nézelődni is lehet a kategóriákban, megkönnyítheti az emberek életét. Egy kérdésre akár több felhasználó is válaszolhat, így ki lehet választani a leg optimálisabb lehetőséget közülük.
 
@@ -56,7 +56,7 @@ A mai világban az internet használata mindennapos, ezen keresztül tájékozó
     - különböző oldalak, különböző válasz lehetőségekkel => nem tudjuk, melyik helyes
 
 
-## 6. Igényelt üzleti folyamatok modellje
+## 7. Igényelt üzleti folyamatok modellje
 
 1. Kérdés felmerülése
 2. Válasz keresése:
@@ -73,13 +73,18 @@ A mai világban az internet használata mindennapos, ezen keresztül tájékozó
     - Jó válszok esetén pontok gyűjthetőek => Rangok szerzése
 
 
-## 7. Használati esetek
+## 8. Használati esetek
 
-Adminisztrátor: Az admin felel a rendszer problémamentes működéséért. Hozzá kell tudnia férni a felhasználók listájához, a felhasználók jogosultsági szintjének módosítása és a felhasználók letiltása miatt. Emellett a Kérdések/válaszok listáját is módosíthatja, moderálhatja, törölheti és szerkesztheti az egyes elemeit.
-Felhasználó: Bejelentkezés nélkül: Olvashatóak, kereshetőek a kérdések és válaszok.
-Bejelentkezés után: Kérdéseket tehet fel különböző témákban a többi felhasználónak. Különböző témákban válaszolhat, a többi felhasználó által feltett kérdésekre. Minősítheti az adott válaszokat, pontokat gyűjthet, amely által különböző rangokat szerezhet.
+	Adminisztrátor: Az admin felel a rendszer problémamentes működéséért. Hozzá kell tudnia férni a felhasználók listájához, a felhasználók jogosultsági szintjének módosítása és a felhasználók letiltása miatt. Emellett a Kérdések/válaszok listáját is módosíthatja, moderálhatja, törölheti és szerkesztheti az egyes elemeit.
+	Felhasználó: Bejelentkezés nélkül: Olvashatóak, kereshetőek a kérdések és válaszok.
+	Bejelentkezés után: Kérdéseket tehet fel különböző témákban a többi felhasználónak. Különböző témákban válaszolhat, a többi felhasználó által feltett kérdésekre. Minősítheti az adott válaszokat, pontokat gyűjthet, amely által különböző rangokat szerezhet.
 
-##Képernyő tervek:
+## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket:
+
+	A weboldal használatához nem szükséges a regisztráció, viszont ilyenkor a lehetőségek korlátozottak. Regisztráció nélküli használat esetén a felhasználó a Posztokra reagálni nem tud csak látja azokat.
+	Ellenben a regisztrált felhasználók kezében több lehetőség van, ők feltehetnek kérdéseket melyekre reagálni is tud, amelyel pontokat gyüjt hogy nagyobb értékelést,rangot tudjon elérni amit a többi felhasználó is lát.
+
+## 10. Képernyő tervek:
 
 	Login : socialmedia/github fiókja segitségével jelentkezhet be, ha sikeres akkor bejelentkezés, hiba esetén Error Page.
 	Főképernyő : Legfrissebb Posztok megjelenítése,bejelentkezés esetén Posztokra reagálhatóság ellenkező esetben üzenet hogy csak bejelentkezve lehet válaszolni/reagálni a Posztokra. A képernyőn reklámbannerek lesznek elhelyezve.
