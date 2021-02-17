@@ -41,6 +41,10 @@ Jogosultságok:
     - Admin
 
 
+##Rendszerhez tartozó követelmények:
+	Front end (Next.js): HTML, CSS,SCSS, JS/jQuery, Bootstrap, Fontawesome, Google fonts, Google ads
+	Back end: PHP - MVC, SQL - MongoDB
+
 ## 5. Jelenlegi üzleti folyamatok modellje
 
 A mai világban az internet használata mindennapos, ezen keresztül tájékozódunk minden olyan dologról, amit nem tudunk. Egy olyan webes felület, ahol a felhasználók különböző kérdéseket tehetnek fel, amelyekre más valós felhasználók adhatnak választ. Vagy akár csak keresgélni, nézelődni is lehet a kategóriákban, megkönnyítheti az emberek életét. Egy kérdésre akár több felhasználó is válaszolhat, így ki lehet választani a leg optimálisabb lehetőséget közülük.
