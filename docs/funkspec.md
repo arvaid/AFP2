@@ -1,4 +1,9 @@
 # Funkcionális specifikáció
+
+## 1. Áttekintés
+
+Egy olyan rendszert fejlesztünk, ami lehetővé teszi, hogy a felhasználók kérdéseket tehetnek fel, illetve a többi felhasználó kérdéseire is tudnak válaszolni. A kérdések különböző kategóriákba sorolva jelennek meg, így megkönnyítve a keresést.
+
 ## 3. Követelmény lista
 
 Modul | ID | Név | Kifejtés
