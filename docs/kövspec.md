@@ -54,7 +54,7 @@ Jogosultságok:
 - Google fonts, google ads
 
 ### Back end
-- PHP - MVC
+- Nextjs - Node
 - SQL - MongoDB
 
 

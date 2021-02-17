@@ -43,7 +43,7 @@ Jogosultságok:
 
 ## 5. Rendszerhez tartozó követelmények:
 	Front end (Next.js): HTML, CSS,SCSS, JS/jQuery, Bootstrap, Fontawesome, Google fonts, Google ads
-	Back end: PHP - MVC, SQL - MongoDB
+	Back end: Next.js - Node, SQL - MongoDB
 
 ## 6. Jelenlegi üzleti folyamatok modellje
 
