@@ -44,7 +44,7 @@ Jogosultságok:
     - Felhasználó
     - Admin
 
-## Rendszerre vonatkozó követelmények, szabályok
+## 5. Rendszerre vonatkozó követelmények, szabályok
 ### Front end (Next.js)
 - HTML
 - CSS, SCSS
@@ -56,3 +56,14 @@ Jogosultságok:
 ### Back end
 - PHP - MVC
 - SQL - MongoDB
+
+
+## 6. Üzleti folyamatok modelje
+![use case diagram](https://github.com/arvaid/AFP2/tree/master/docs/usecase.png)
+
+## 7. Fogalomtár
+
+-
+-
+
+## 8. Adatbázis terv
