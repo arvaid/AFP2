@@ -60,7 +60,7 @@ Jogosultságok:
 - SQL - MongoDB
 
 ## 6. Üzleti folyamatok modelje
-![use case diagram](https://github.com/arvaid/AFP2/tree/master/docs/usecase.png)
+![use case diagram](usecase.png)
 
 ## 7. Fogalomszótár
 Fogalom | Leírás |
