@@ -52,7 +52,24 @@ A mai világban az internet használata mindennapos, ezen keresztül tájékozó
     - különböző oldalak, különböző válasz lehetőségekkel => nem tudjuk, melyik helyes
 
 
-## 6. Használati esetek
+## 6. Igényelt üzleti folyamatok modellje
+
+1. Kérdés felmerülése
+2. Válasz keresése:
+    - Bejelentkezés nélkül is elérhető
+    - Megfelelő kategória kiválasztása => Keresés
+    - Minősített válaszok => Könnyebben megtalálható a legoptimálisabb válasz
+3. Kérdés feltétele:
+    - Bejelentkezés után érhető el
+    - Megfelelő kategória választás után
+    - Gyors válasz az adott témában => Több lehetőség, valós felhasználóktól
+    - Válaszok minősítése => Segít kiválasztani a legjobbat/legoptimálisabbat
+4. Válasz írása:
+    - Bejelentkezés után érhető el
+    - Jó válszok esetén pontok gyűjthetőek => Rangok szerzése
+
+
+## 7. Használati esetek
 
 Adminisztrátor: Az admin felel a rendszer problémamentes működéséért. Hozzá kell tudnia férni a felhasználók listájához, a felhasználók jogosultsági szintjének módosítása és a felhasználók letiltása miatt. Emellett a Kérdések/válaszok listáját is módosíthatja, moderálhatja, törölheti és szerkesztheti az egyes elemeit.
 Felhasználó: Bejelentkezés nélkül: Olvashatóak, kereshetőek a kérdések és válaszok.
