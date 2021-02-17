@@ -91,3 +91,12 @@ A mai világban az internet használata mindennapos, ezen keresztül tájékozó
 	Poszt/Kérdés szerkesztő felület: ezen a felületen tudják a felhasználók a Posztot/kérdést megírni.
 	Profil : A felhasználó részletes adatai, ranggal és pontokkal.
 	Keresés : Különböző témákban lehet kérdéseket/válaszokat keresni.
+
+## 11. Forgatókönyv:
+
+	A projekthez először elkészítjük a képernyőket,felületeket (frontend), ezután megírjuk a hozzájuk tartozó kódokat (backend).
+	Adatbázis létrehozása, tervezése.
+
+## 12. Fogalomszótár:
+	-
+	-
