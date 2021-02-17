@@ -45,18 +45,19 @@ Jogosultságok:
     - Admin
 
 ## 5. Rendszerre vonatkozó követelmények, szabályok
+
 ### Frontend (Next.js)
 - HTML
 - CSS, SCSS
 - JS, jQuery
 - Bootstrap
-- Fontawesome
-- Google fonts, google ads
+- Font Awesome
+- Google Fonts
+- Google Ads
 
 ### Backend
-- Nextjs - Node
+- Laravel framework (PHP)
 - SQL - MongoDB
-
 
 ## 6. Üzleti folyamatok modelje
 ![use case diagram](https://github.com/arvaid/AFP2/tree/master/docs/usecase.png)
