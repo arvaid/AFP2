@@ -43,3 +43,16 @@ Jogosultságok:
     - Vendég
     - Felhasználó
     - Admin
+
+## Rendszerre vonatkozó követelmények, szabályok
+### Front end (Next.js)
+- HTML
+- CSS, SCSS
+- JS, jQuery
+- Bootstrap
+- Fontawesome
+- Google fonts, google ads
+
+### Back end
+- PHP - MVC
+- SQL - MongoDB
