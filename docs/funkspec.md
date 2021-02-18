@@ -100,8 +100,10 @@ A mai világban az internet használata mindennapos, ezen keresztül tájékozó
 
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket:
 
-A weboldal használatához nem szükséges a regisztráció, viszont ilyenkor a lehetőségek korlátozottak. Regisztráció nélküli használat esetén a felhasználó a Posztokra reagálni nem tud csak látja azokat.
-Ellenben a regisztrált felhasználók kezében több lehetőség van, ők feltehetnek kérdéseket melyekre reagálni is tud, amelyel pontokat gyüjt hogy nagyobb értékelést,rangot tudjon elérni amit a többi felhasználó is lát.
+A weboldal használatához nem szükséges a regisztráció, viszont ilyenkor a lehetőségek korlátozottak.
+Regisztráció nélküli használat esetén a felhasználó a Posztokat látja illetve keresni tud témák alapján ellenben reagálni nem tud értékelést nem kap.
+Ellenben a regisztrált felhasználók kezében több lehetőség van, ők feltehetnek kérdéseket.Kérdésekre válaszokat tud adni és abban az esetben ha a töbi felhasználó úgy érzi hogy a válasza hasznosnak bizonyult akkor értékelni tudja a választ, amelyel pontokat gyüjt hogy nagyobb értékelést/rangot tudjon elérni, amit a többi felhasználó is lát.
+Az Adminisztrátor bejelentkezés után képes használni a privilégiumjait melyekkel a közösség rugalmas és folyékony működésének megtartására törekszik,amik a következő formában valósulhatnak meg:Törekszik rá hogy az oldalon bármely mérgező témájú,tartalmú Kérdéseket/posztokat/válaszokat ha szükség szerint moderálhatja például:rasszizmus,szexizmus.Ilyen esetekben az Adminisztrátor elveheti felhasználótól Kiváltságait és Tilthatja a fiókját.
 
 ## 10. Képernyő tervek:
 
