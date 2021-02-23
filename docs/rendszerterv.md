@@ -24,4 +24,4 @@ Trello: https://trello.com/b/zGA3eTkt/nao-afp2
 
 ## 4. Üzleti folyamatok modellje
 
-![Üzleti modell](../docs/img/model.PNG)
+![Üzleti folyamatok modell](../docs/img/model.png)
