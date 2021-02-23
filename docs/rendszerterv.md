@@ -21,3 +21,7 @@ Trello: https://trello.com/b/zGA3eTkt/nao-afp2
 
 &nbsp;&nbsp;&nbsp;&nbsp; 12. gyakorlat: Projekt befejezése, Bemutatás
 
+
+## 4. Üzleti folyamatok modellje
+
+![Üzleti modell](../docs/img/model.PNG)
