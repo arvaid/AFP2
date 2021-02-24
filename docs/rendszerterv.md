@@ -43,3 +43,9 @@ A Laravel egy MVC (Model-View-Controller) framework, ebből az adatbázis alkotj
 ### Frontend
 
 A frontendet BootStrappel formázott, JavaScript és jQuery kódot tartalmazó, a HTML5 szabványt követő oldalak alkotják, melyeket a szerver oldali Laravel MVC framework nézetei (View) valósítanak meg.
+
+## 10. Implementációs terv
+
+A webes felület főként HTML, CSS, és Javascript nyelven fog készülni. Használjuk továbbá a jQuery nevű JavaScript framework-öt is.
+
+Az alkalmazás az MVC tervezési mintát használó Laravel keretrendszerre épül, így jól elkülöníthőek az egyes komponensek. Minden View, Controller és Model osztály külön fájlba kerül, a három komponens-kategóriának pedig a keretrendszer saját mappát hoz létre.
