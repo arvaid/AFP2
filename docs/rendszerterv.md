@@ -32,3 +32,14 @@ Trello: https://trello.com/b/zGA3eTkt/nao-afp2
 ## 4. Üzleti folyamatok modellje
 
 ![Üzleti folyamatok modell](../docs/img/model.png)
+
+## 8. Architekturális terv
+
+### Backend
+
+A backendhez szükség van egy adatbázis szerverre, ebben az esetben MongoDB-t használunk. A szerver oldalon egy Laravel (PHP) alkalmazás fut, amely az adatbázishoz csatlakozik és a beérkező HTTP lekérdezéseket kiszolgálja.
+A Laravel egy MVC (Model-View-Controller) framework, ebből az adatbázis alkotja a Modelt, a backend kód pedig a Controllert.
+
+### Frontend
+
+A frontendet BootStrappel formázott, JavaScript és jQuery kódot tartalmazó, a HTML5 szabványt követő oldalak alkotják, melyeket a szerver oldali Laravel MVC framework nézetei (View) valósítanak meg.
