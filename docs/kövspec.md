@@ -4,6 +4,8 @@
 
 A rendszer célja egy olyan webes felület biztosítása, ahol a felhasználók kérdéseket tudnak feltenni, melyekre más felhasználók válaszolhatnak. A kérdések kategóriák szerint jelennek meg. Az alkalmazás támogasson light/dark módot, GitHub fiókkal történő bejelentkezést.
 
+A felhasználók profilján is megjelenik a válaszaira adott pontok összege, ami alapján különböző rangokat is kapnak, melyek megmutatják, hogy az adott felhasználó mennyivel járult hozzá a válaszadással az oldalhoz.
+
 ## 2. Jelenlegi helyzet
 
 A kategóriában már népszerű weboldalak:
