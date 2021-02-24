@@ -2,7 +2,11 @@
 
 ## 1. Áttekintés
 
-Egy olyan rendszert fejlesztünk, ami lehetővé teszi, hogy a felhasználók kérdéseket tehetnek fel, illetve a többi felhasználó kérdéseire is tudnak válaszolni. A kérdések különböző kategóriákba sorolva jelennek meg, így megkönnyítve a keresést.
+Egy olyan rendszert fejlesztünk, ami lehetővé teszi, hogy a felhasználók kérdéseket tehetnek fel, illetve a többi felhasználó kérdéseire is tudnak válaszolni. A kérdések különböző kategóriákba sorolva jelennek meg, így megkönnyítve a keresést. A kérdések és válaszok pozitív vagy negatív értékelést kaphatnak a többi felhasználótól, ami egy összpontszám formájában jelenik meg.
+
+A felhasználók profilján is megjelenik a válaszaira adott pontok összege, ami alapján különböző rangokat is kapnak, melyek megmutatják, hogy az adott felhasználó mennyivel járult hozzá a válaszadással az oldalhoz.
+
+Az alkalmazás támogasson light/dark módot, GitHub fiókkal történő bejelentkezést.
 
 ## 2. Jelenlegi helyzet
 
