@@ -49,3 +49,17 @@ A frontendet BootStrappel formázott, JavaScript és jQuery kódot tartalmazó, 
 A webes felület főként HTML, CSS, és Javascript nyelven fog készülni. Használjuk továbbá a jQuery nevű JavaScript framework-öt is.
 
 Az alkalmazás az MVC tervezési mintát használó Laravel keretrendszerre épül, így jól elkülöníthőek az egyes komponensek. Minden View, Controller és Model osztály külön fájlba kerül, a három komponens-kategóriának pedig a keretrendszer saját mappát hoz létre.
+
+## 11. Tesztterv
+
+A backend tesztelését külön is elvégezzük, ezen kívűl integrációs teszteket is csinálunk.
+
+## Backend - Unit test
+
+A Controllerek metódusain unit tesztelést végzünk. Ehhez a Laravel által is támogatott PHPUnit teszt framework-öt használjuk.
+Törekszünk a minél nagyobb kód lefedettségre. Akár már fejlesztés idő alatt is írhatunk unit teszteket, sőt, ez ajánlott is a fejlesztőknek, mivel hamarabb fény derül a hibákra.
+A teszt akkor sikeres, ha minden unit teszt hiba nélkül fut le.
+
+## Integrációs teszt
+
+Az integrációs teszt során azt ellenőrizzük, hogy a szoftver egyes komponensei képesek-e együttes működésre, jelen esetben ez a backend-frontend és a frontend-adatbázis közötti kommunikációt jelenti.
