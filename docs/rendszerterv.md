@@ -1,4 +1,4 @@
-# Renszerterv
+# Rendszerterv
 
 ## 3. Ütemterv
 
