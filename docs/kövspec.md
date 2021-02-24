@@ -60,7 +60,7 @@ A projekt célja egy online Question-Answer (kérdés-válasz) oldal létrehozá
 - SQL - MongoDB
 
 ## 6. Üzleti folyamatok modelje
-![use case diagram](usecase.png)
+![use case diagram](img/usecase.png)
 
 ## 7. Fogalomszótár
 Fogalom | Leírás

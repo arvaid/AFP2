@@ -31,7 +31,7 @@ Trello: https://trello.com/b/zGA3eTkt/nao-afp2
 
 ## 4. Üzleti folyamatok modellje
 
-![Üzleti folyamatok modell](../docs/img/model.png)
+![Üzleti folyamatok modell](img/model.png)
 
 ## 8. Architekturális terv
 
