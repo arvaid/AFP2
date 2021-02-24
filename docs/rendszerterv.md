@@ -1,6 +1,6 @@
 # Rendszerterv
 
-## A rendszer célja
+## 1. A rendszer célja
 
 A rendszer célja egy olyan webes felület biztosítása, ahol a felhasználók kérdéseket tudnak feltenni, melyekre más felhasználók válaszolhatnak. A kérdések kategóriák szerint jelennek meg.
 Az oldalra social media (GitHub) fiókkal lehet bejelentkezni/regisztrálni. A kérdéseket és válaszokat az adminok moderálják, a nem megfelelő posztok törlésre kerülnek.
