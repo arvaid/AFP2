@@ -1,5 +1,12 @@
 # Rendszerterv
 
+## A rendszer célja
+
+A rendszer célja egy olyan webes felület biztosítása, ahol a felhasználók kérdéseket tudnak feltenni, melyekre más felhasználók válaszolhatnak. A kérdések kategóriák szerint jelennek meg.
+Az oldalra social media (GitHub) fiókkal lehet bejelentkezni/regisztrálni. A kérdéseket és válaszokat az adminok moderálják, a nem megfelelő posztok törlésre kerülnek.
+A felhasználók a kérdésekre és válaszokra gombnyomással adhatnak pozitív, illetve negatív visszajelzést (like-dislike/upvote-downvote).
+A rendszer webes felületen érhető el.
+
 ## 3. Ütemterv
 
 Trello: https://trello.com/b/zGA3eTkt/nao-afp2
