@@ -10,7 +10,11 @@ Az alkalmazás támogasson light/dark módot, GitHub fiókkal történő bejelen
 
 ## 2. Jelenlegi helyzet
 
+Szeretnénk elkészíteni egy általános célú kérdés-válasz weboldalt.
+
 Mivel a magyar nyelven elérhető legnagyobb [hasonló magyar weboldal](https://www.gyakorikerdesek.hu/) a komolytalan hangvételéről híres, könnyen betölthetünk egy piaci rést egy nála hasznosabb webes alkalmazás elkészítésével.
+
+Úgy látjuk, hogy sok embernek nyújthatna segítséget, ha létezne egy olyan alternatíva, ahol a kérdéseket megfelelően moderáljuk, kiszűrve az értéktelen hozzászólaśokat.
 
 Az oldal jelentős hirdetőfelületet alkothatna, amennyiben elég népszerűvé válna.
 
