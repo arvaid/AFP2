@@ -10,6 +10,7 @@ A rendszer webes felületen érhető el.
 ## 2. Projektterv
 
 Szerepkörök:
+
 	Front end: Jámbor Alexandra, Vincze Flórián
 	
 	Back end: Árvai Dániel
