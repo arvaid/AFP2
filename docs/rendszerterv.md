@@ -7,6 +7,13 @@ Az oldalra social media (GitHub) fiókkal lehet bejelentkezni/regisztrálni. A k
 A felhasználók a kérdésekre és válaszokra gombnyomással adhatnak pozitív, illetve negatív visszajelzést (like-dislike/upvote-downvote).
 A rendszer webes felületen érhető el.
 
+## 2.Projektterv
+
+Szerepkörök:
+	Front end: Jámbor Alexandra, Vincze Flórián
+	
+	Back end: Árvai Dániel
+
 ## 3. Ütemterv
 
 Trello: https://trello.com/b/zGA3eTkt/nao-afp2
