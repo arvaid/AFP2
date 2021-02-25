@@ -64,7 +64,7 @@ Az admin minden felhasználó tevékenységét nyomon tudja követni és adott e
 A felhasználók csak a saját posztjaikat tudják eltávolítani/módosítani, a többi user-ét csak megtekinthetik és válaszolhatnak rá illetve reagálhatnak rá.
 
 ### Menü felépítés:
-Nyitóoldal
+### Nyitóoldal
 - Bejelentkezés
 - Regisztráció
 - Segítség
@@ -79,13 +79,14 @@ Nyitóoldal
 ## 7. Fizikai környezet
 
 Az alkalmazás webes felületre készül. Feltételezzük, hogy a számítógépen van telepítve valamilyen böngésző(Google Chrome, Mozilla Firefox, Microsoft Edge,Opera).
-Fejlesztői eszközök:
-	Notepad++
-	Visual  Studio/Code
-	Wamp/Xampp server
-	Node
-	phpMyAdmin
-	.
+
+### Fejlesztői eszközök:
+- Notepad++
+- Visual  Studio/Code
+- Wamp/Xampp server
+- Node
+- PhpMyAdmin
+	
 
 ## 8. Architekturális terv
 
