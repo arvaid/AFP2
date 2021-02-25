@@ -7,7 +7,7 @@ Az oldalra social media (GitHub) fiókkal lehet bejelentkezni/regisztrálni. A k
 A felhasználók a kérdésekre és válaszokra gombnyomással adhatnak pozitív, illetve negatív visszajelzést (like-dislike/upvote-downvote).
 A rendszer webes felületen érhető el.
 
-## 2.Projektterv
+## 2. Projektterv
 
 Szerepkörök:
 	Front end: Jámbor Alexandra, Vincze Flórián
@@ -39,6 +39,25 @@ Trello: https://trello.com/b/zGA3eTkt/nao-afp2
 ## 4. Üzleti folyamatok modellje
 
 ![Üzleti folyamatok modell](img/model.png)
+
+## 5. Követelmények
+
+###Funkcionális követelmények:
+	- Felhassználók adatait tudjuk tárolni.
+	- Webes környezeten való működés.
+	- Kategória szerinti keresés
+	- Válaszok minősítése
+    		- válaszok minősítése like-al, illetve dislike-al
+	- Kategória szerinti keresés
+	
+	
+###Nem funkcionális követelmények:
+	- A felhasználók csak a saját bejegyzéseiket tudják módosítani/törölni de a többi felhasználóét is meg tudják tekinteni.
+	- Pontok gyűjtése
+    		- a felhasználó pontokat gyűjthet a válaszaival
+   		- minél több pontot gyűjt a felhasználó, annál magasabb rangot kap
+	
+
 
 ## 8. Architekturális terv
 
