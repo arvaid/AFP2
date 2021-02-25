@@ -76,6 +76,17 @@ Bejelentkezve
 	- Segítség
 	- Kijelentkezés
 
+## 7. Fizikai környezet
+
+Az alkalmazás webes felületre készül. Feltételezzük, hogy a számítógépen van telepítve valamilyen böngésző(Google Chrome, Mozilla Firefox, Microsoft Edge,Opera).
+Fejlesztői eszközök:
+	Notepad++
+	Visual  Studio/Code
+	Wamp/Xampp server
+	Node
+	phpMyAdmin
+	.
+
 ## 8. Architekturális terv
 
 ### Backend
