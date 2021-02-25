@@ -50,9 +50,8 @@ Trello: https://trello.com/b/zGA3eTkt/nao-afp2
 - Válaszok minősítése
 	- válaszok minősítése like-al, illetve dislike-al
 - Kategória szerinti keresés
-	
-	
-###Nem funkcionális követelmények:
+
+### Nem funkcionális követelmények:
 - A felhasználók csak a saját bejegyzéseiket tudják módosítani/törölni de a többi felhasználóét is meg tudják tekinteni.
 - Pontok gyűjtése
 	- a felhasználó pontokat gyűjthet a válaszaival
@@ -64,18 +63,18 @@ A rendszerben szereplő felhasználóknak kétféle szerepkörük lesz, ez az ad
 Az admin minden felhasználó tevékenységét nyomon tudja követni és adott esetben moderálhatja módosíthatja/eltávolíthatja egy-egy user posztját.
 A felhasználók csak a saját posztjaikat tudják eltávolítani/módosítani, a többi user-ét csak megtekinthetik és válaszolhatnak rá illetve reagálhatnak rá.
 
-Menü felépítés:
+### Menü felépítés:
 Nyitóoldal
-	- Bejelentkezés
-	- Regisztráció
-	- Segítség
+- Bejelentkezés
+- Regisztráció
+- Segítség
 	
-Bejelentkezve
-	- Profil
-	- Posztok
-	- Főoldal
-	- Segítség
-	- Kijelentkezés
+### Bejelentkezve
+- Profil
+- Posztok
+- Főoldal
+- Segítség
+- Kijelentkezés
 
 ## 7. Fizikai környezet
 
