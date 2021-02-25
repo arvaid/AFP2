@@ -43,20 +43,20 @@ Trello: https://trello.com/b/zGA3eTkt/nao-afp2
 
 ## 5. Követelmények
 
-###Funkcionális követelmények:
-	- Felhassználók adatait tudjuk tárolni.
-	- Webes környezeten való működés.
-	- Kategória szerinti keresés
-	- Válaszok minősítése
-    		- válaszok minősítése like-al, illetve dislike-al
-	- Kategória szerinti keresés
+### Funkcionális követelmények:
+- Felhassználók adatait tudjuk tárolni.
+- Webes környezeten való működés.
+- Kategória szerinti keresés
+- Válaszok minősítése
+	- válaszok minősítése like-al, illetve dislike-al
+- Kategória szerinti keresés
 	
 	
 ###Nem funkcionális követelmények:
-	- A felhasználók csak a saját bejegyzéseiket tudják módosítani/törölni de a többi felhasználóét is meg tudják tekinteni.
-	- Pontok gyűjtése
-    		- a felhasználó pontokat gyűjthet a válaszaival
-   		- minél több pontot gyűjt a felhasználó, annál magasabb rangot kap
+- A felhasználók csak a saját bejegyzéseiket tudják módosítani/törölni de a többi felhasználóét is meg tudják tekinteni.
+- Pontok gyűjtése
+	- a felhasználó pontokat gyűjthet a válaszaival
+	- minél több pontot gyűjt a felhasználó, annál magasabb rangot kap
 	
 ## 6. Funkcionális terv
 
