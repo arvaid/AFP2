@@ -65,8 +65,23 @@ A projekt célja egy online Question-Answer (kérdés-válasz) oldal létrehozá
 - Laravel framework (PHP)
 - SQL - MongoDB
 
-## 6. Üzleti folyamatok modelje
-![use case diagram](img/usecase.png)
+## 6. Jelenlegi üzleti folyamatok modellje
+
+### Információk keresése:
+- interneten keresztül történik
+- különböző oldalak/cikkek átnézése által => hosszú folyamat => nem biztos, hogy eredményes
+- különböző oldalak, különböző válasz lehetőségekkel => nem tudjuk, melyik helyes
+
+## 6,5.  Igényelt üzleti folyamatok modellje
+
+### Kérdés feltétele:
+- Bejelentkezés után érhető el
+- Gyors válasz az adott témában => Több lehetőség, valós felhasználóktól
+- Válaszok minősítése => Segít kiválasztani a legjobbat/legoptimálisabbat
+
+### Válasz írása:
+- Bejelentkezés után érhető el
+- Jó válszok esetén pontok gyűjthetőek => Rangok szerzése
 
 ## 7. Fogalomszótár
 Fogalom | Leírás
