@@ -99,6 +99,47 @@ A Laravel egy MVC (Model-View-Controller) framework, ebből az adatbázis alkotj
 
 A frontendet BootStrappel formázott, JavaScript és jQuery kódot tartalmazó, a HTML5 szabványt követő oldalak alkotják, melyeket a szerver oldali Laravel MVC framework nézetei (View) valósítanak meg.
 
+## 9. Adatbázis terv
+
+### Adatbázis modell terv:
+
+User:
+- Id: UUID
+- Username: string
+- Email: string
+- Auth: enum(admin, user)
+- Social: enum(github, facebook, google)
+- Token: string
+- Score: int
+- Rang: int
+- Questions: Question[]
+- Answers: Answer[]
+
+Question:
+- Id: int
+- Question_text: string
+- Owner: User
+- Answers: Answer[]
+- Topic: Topic
+- created_at: timestamp
+
+Answer:
+- Id: int
+- Answer_text: string
+- Question: Question
+- Owner: User
+- score: int
+- created_at: timestamp
+
+Topic:
+- Id: int
+- Name: string
+- Questions: Question[]
+
+### Adatbázis terv
+
+![Adatbázis terv](img/database.png)
+
 ## 10. Implementációs terv
 
 A webes felület főként HTML, CSS, és Javascript nyelven fog készülni. Használjuk továbbá a jQuery nevű JavaScript framework-öt is.
