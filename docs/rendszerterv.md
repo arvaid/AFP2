@@ -57,7 +57,24 @@ Trello: https://trello.com/b/zGA3eTkt/nao-afp2
     		- a felhasználó pontokat gyűjthet a válaszaival
    		- minél több pontot gyűjt a felhasználó, annál magasabb rangot kap
 	
+## 6. Funkcionális terv
 
+A rendszerben szereplő felhasználóknak kétféle szerepkörük lesz, ez az adminisztrátor és a felhasználó.
+Az admin minden felhasználó tevékenységét nyomon tudja követni és adott esetben moderálhatja módosíthatja/eltávolíthatja egy-egy user posztját.
+A felhasználók csak a saját posztjaikat tudják eltávolítani/módosítani, a többi user-ét csak megtekinthetik és válaszolhatnak rá illetve reagálhatnak rá.
+
+Menü felépítés:
+Nyitóoldal
+	- Bejelentkezés
+	- Regisztráció
+	- Segítség
+	
+Bejelentkezve
+	- Profil
+	- Posztok
+	- Főoldal
+	- Segítség
+	- Kijelentkezés
 
 ## 8. Architekturális terv
 
