@@ -5,16 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="{{ asset('fonts/fontawesome-all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('fonts/simple-line-icons.min.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
-    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+    <link rel="stylesheet" href="{{ asset('css/smoothproducts.css') }}">
 </head>
 
 <body>
+    {{ asset('img/photo.jpg') }}
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="#">NamesAreOverrated</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
@@ -29,7 +30,7 @@
         </div>
     </nav>
     <main class="page landing-page">
-        <section class="clean-block clean-hero" style="background-image:url(&quot;assets/img/tech/image4.jpg&quot;);color:rgba(9, 162, 255, 0.85);">
+        <section class="clean-block clean-hero" style="background-image:url(&quot;{{ asset('/img/tech/image4.jpg') }}&quot;);color:rgba(9, 162, 255, 0.85);">
             <div class="text">
                 <h2><br><strong>We Love people who ask</strong>.</h2>
                 <p><br>We build products that helps people and connect them to solutions that enable productivity, growth, and discovery.<br></p><button class="btn btn-outline-light btn-lg" type="button">Learn More</button>
@@ -42,7 +43,7 @@
                     <p>We are an open community for anyone <br>that need or love help to&nbsp;get answers<br>for the toughest&nbsp; questions, share knowledge with US.<br><br></p>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-md-6"><img class="img-thumbnail" src="assets/img/scenery/image5.jpg"></div>
+                    <div class="col-md-6"><img class="img-thumbnail" src="{{ asset('/img/scenery/image5.jpg') }}"></div>
                     <div class="col-md-6">
                         <h3 class="text-left text-primary">What u can do here ?</h3>
                         <div class="getting-started-info">
@@ -86,7 +87,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-sm-6 col-lg-4">
-                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar1.jpg">
+                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{{ asset('/img/avatars/avatar1.jpg') }}">
                             <div class="card-body info">
                                 <h4 class="card-title">Vincze Flórián</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -95,7 +96,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar2.jpg">
+                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{{ asset('/img/avatars/avatar2.jpg') }}">
                             <div class="card-body info">
                                 <h4 class="card-title">Dániel Árvai<br></h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -104,7 +105,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar3.jpg">
+                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{{ asset('/img/avatars/avatar3.jpg') }}">
                             <div class="card-body info">
                                 <h4 class="card-title">Alexandra Jámbor<br></h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -153,12 +154,12 @@
             <p>© 2021 Copyright NamesAreOverrated</p>
         </div>
     </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
+    <script src="{{ asset('/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('/js/bs-init.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="assets/js/smoothproducts.min.js"></script>
-    <script src="assets/js/theme.js"></script>
+    <script src="{{ asset('/js/smoothproducts.min.js') }}"></script>
+    <script src="{{ asset('/js/theme.js') }}"></script>
 </body>
 
 </html>
