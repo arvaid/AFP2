@@ -98,7 +98,7 @@
                     <div class="col-sm-6 col-lg-4">
                         <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{{ asset('/img/avatars/avatar2.jpg') }}">
                             <div class="card-body info">
-                                <h4 class="card-title">Dániel Árvai<br></h4>
+                                <h4 class="card-title">Árvai Dániel<br></h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
                             </div>
@@ -107,7 +107,7 @@
                     <div class="col-sm-6 col-lg-4">
                         <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{{ asset('/img/avatars/avatar3.jpg') }}">
                             <div class="card-body info">
-                                <h4 class="card-title">Alexandra Jámbor<br></h4>
+                                <h4 class="card-title">Jámbor Alexandra<br></h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
                             </div>
