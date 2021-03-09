@@ -2,14 +2,16 @@
 
 namespace App\Models;
 
+use App\Traits\Uuids;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Support\Str;
 use Jenssegers\Mongodb\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
-    use HasFactory, Notifiable;
+    use HasFactory, Notifiable, Uuids;
 
     protected $fillable = [
         'name', 'email', 'password',
@@ -22,4 +24,5 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
 }
