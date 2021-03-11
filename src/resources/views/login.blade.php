@@ -13,8 +13,8 @@
                     <h2 class="text-info">Log In</h2>
                 </div>
                 <form>
-                    <div class="form-group"><
-                        label for="email">Email</label>
+                    <div class="form-group">
+                        <label for="email">Email</label>
                         <input class="form-control item" type="email" id="email">
                     </div>
                     <div class="form-group">
