@@ -21,4 +21,8 @@ Route::get('/', function () {
 Route::get('/register', [UserController::class, 'create']);
 Route::post('/register', [UserController::class, 'store']);
 
+Route::get('/login', function() {
+    return view('login');
+});
+
 Route::view('home', 'home')->middleware('auth');
