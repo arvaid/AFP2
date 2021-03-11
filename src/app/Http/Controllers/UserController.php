@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -23,7 +24,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        return view('registration');
     }
 
     /**
@@ -34,7 +35,9 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // TODO: form validáció
+        // TODO: adatbázis művelet
+        // TODO: átirányítás (success-page/error-page)
     }
 
     /**
