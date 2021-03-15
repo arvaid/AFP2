@@ -3,13 +3,15 @@
 namespace App\Models;
 
 use App\Traits\Uuids;
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Support\Str;
 use Jenssegers\Mongodb\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Jenssegers\Mongodb\Eloquent\Builder;
 use Laravel\Passport\HasApiTokens;
 
+/**
+ * @method static Builder inRandomOrder()
+ */
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable, Uuids;
@@ -20,5 +22,9 @@ class User extends Authenticatable
 
     public function answers(){
         return $this->hasMany(Answer::class);
+    }
+
+    public function questions(){
+        return $this->hasMany(Question::class);
     }
 }
