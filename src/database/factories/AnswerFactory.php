@@ -3,6 +3,8 @@
 namespace Database\Factories;
 
 use App\Models\Answer;
+use App\Models\Question;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class AnswerFactory extends Factory
@@ -22,7 +24,10 @@ class AnswerFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'answer_text'=>$this->faker->paragraph,
+            'user_id' => User::all()->random()->id,
+            'score' => $this->faker->numberBetween(0, 100),
+            'question_id'=> Question::all()->random()->id,
         ];
     }
 }
