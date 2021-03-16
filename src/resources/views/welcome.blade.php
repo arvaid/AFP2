@@ -86,7 +86,8 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-sm-6 col-lg-4">
-                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{{ asset('/img/avatars/avatar1.jpg') }}">
+                        <div class="card clean-card text-center">
+                            <img class="card-img-top w-100 d-block" src="{{ asset('/img/avatars/avatar1.jpg') }}">
                             <div class="card-body info">
                                 <h4 class="card-title">Vincze Flórián</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -113,7 +114,8 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{{ asset('/img/avatars/avatar3.jpg') }}">
+                        <div class="card clean-card text-center">
+                            <img class="card-img-top w-100 d-block" src="{{ asset('/img/avatars/avatar3.jpg') }}">
                             <div class="card-body info">
                                 <h4 class="card-title">Jámbor Alexandra<br></h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>

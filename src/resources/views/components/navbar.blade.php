@@ -8,10 +8,10 @@
                 <li class="nav-item"><a class="nav-link" href="contact-us.html">support</a></li>
             </ul>
             <div>
-                <a href="{{ url('/register') }}">
+                <a href="{{ route('register') }}">
                     <i class="fas fa-registered" data-toggle="tooltip" data-bss-tooltip="" style="padding: 8px;margin: 5px;padding-left: 8px;" title="Registration"></i>
                 </a>
-                <a href="{{ url('/login') }}">
+                <a href="{{ route('login') }}">
                     <i class="fas fa-sign-in-alt" data-toggle="tooltip" data-bss-tooltip="" style="padding: 8px;margin: 5px;padding-left: 17px;" title="Login"></i>
                 </a>
             </div>
