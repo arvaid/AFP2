@@ -7,14 +7,13 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Jenssegers\Mongodb\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Jenssegers\Mongodb\Eloquent\Builder;
-use Laravel\Passport\HasApiTokens;
 
 /**
  * @method static Builder inRandomOrder()
  */
 class User extends Authenticatable
 {
-    use HasApiTokens, HasFactory, Notifiable, Uuids;
+    use HasFactory, Notifiable, Uuids;
 
     protected $fillable = [
         'username', 'email'
