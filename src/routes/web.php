@@ -18,4 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/logout', 'Laravel\Fortify\Http\Controllers\AuthenticatedSessionController@destroy');
+
 Route::view('home', 'home')->middleware('auth');
