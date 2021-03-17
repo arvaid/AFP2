@@ -8,12 +8,19 @@
                 <li class="nav-item"><a class="nav-link" href="contact-us.html">support</a></li>
             </ul>
             <div>
-                <a href="{{ route('register') }}">
-                    <i class="fas fa-registered" data-toggle="tooltip" data-bss-tooltip="" style="padding: 8px;margin: 5px;padding-left: 8px;" title="Registration"></i>
-                </a>
-                <a href="{{ route('login') }}">
-                    <i class="fas fa-sign-in-alt" data-toggle="tooltip" data-bss-tooltip="" style="padding: 8px;margin: 5px;padding-left: 17px;" title="Login"></i>
-                </a>
+                @guest
+                    <a href="{{ route('register') }}">
+                        <i class="fas fa-registered" data-toggle="tooltip" data-bss-tooltip="" style="padding: 8px;margin: 5px;padding-left: 8px;" title="Registration"></i>
+                    </a>
+                    <a href="{{ route('login') }}">
+                        <i class="fas fa-sign-in-alt" data-toggle="tooltip" data-bss-tooltip="" style="padding: 8px;margin: 5px;padding-left: 17px;" title="Login"></i>
+                    </a>
+                @endguest
+                @auth
+                    <a href="{{ route('logout') }}">
+                        <i class="fas fa-sign-out-alt" data-toggle="tooltip" data-bss-tooltip="" style="padding: 8px;margin: 5px;padding-left: 8px;" title="Log Out"></i>
+                    </a>
+                @endauth
             </div>
         </div>
     </div>

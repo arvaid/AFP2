@@ -34,7 +34,7 @@
                     </div>
                     <div class="form-group">
                         <label for="password-confirm">Repeat your Password</label>
-                        <input class="form-control item" type="password" id="password-confirm" name="password-confirm" required>
+                        <input class="form-control item" type="password" id="password-confirm" name="password-confirmation" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
