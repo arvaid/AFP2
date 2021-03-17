@@ -34,7 +34,12 @@
                     </div>
                     <div class="form-group">
                         <label for="password-confirm">Repeat your Password</label>
-                        <input class="form-control item" type="password" id="password-confirm" name="password-confirmation" required>
+                        <input class="form-control item" type="password" id="password-confirm" name="password_confirmation" required>
+                        @error('password-confirmation')
+                            <div class="invalid-feedback" role="alert">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
