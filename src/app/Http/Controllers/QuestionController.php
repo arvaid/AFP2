@@ -14,8 +14,11 @@ class QuestionController extends Controller
      */
     public function index()
     {
+        $view_params = [
+          'questions' => Question::all()
+        ];
 
-        return view('question.index');
+        return view('question.index', $view_params);
     }
 
     /**
