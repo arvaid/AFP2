@@ -3,7 +3,7 @@
         <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link @if(Request::is('/')) active @endif" href="{{url('/')}}">Home</a></li>
-                <li class="nav-item"><a class="nav-link @if(str_contains(Route::current()->getName(),'question'))) active @endif" href="{{ route('question.index') }}">Posts</a></li>
+                <li class="nav-item"><a class="nav-link @if(Route::is('question.*'))) active @endif" href="{{ route('question.index') }}">Posts</a></li>
                 <li class="nav-item"><a class="nav-link" href="about-us.html">Profile</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact-us.html">support</a></li>
             </ul>
