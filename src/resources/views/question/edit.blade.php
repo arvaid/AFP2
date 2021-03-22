@@ -4,8 +4,10 @@
     Edit question - Brand
 @endsection
 
-@section('main')
-    <main class="page question-edit-page">
+@section('page-class')
+    question-edit-page
+@endsection
 
-    </main>
+@section('content')
+
 @endsection

@@ -4,8 +4,10 @@
     {{ $question->question_text }} - Brand
 @endsection
 
-@section('main')
-    <main class="page question-show-page">
+@section('page-class')
+    question-show-page
+@endsection
 
-    </main>
+@section('content')
+
 @endsection

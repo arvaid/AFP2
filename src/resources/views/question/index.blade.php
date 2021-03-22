@@ -4,8 +4,11 @@
     Questions - Brand
 @endsection
 
-@section('main')
-<main class="page question-list-page">
+@section('page-class')
+    question-list-page
+@endsection
+
+@section('content')
     <table class="table">
         <thead>
             <tr>
@@ -26,5 +29,4 @@
         @endforeach
         </tbody>
     </table>
-</main>
 @endsection

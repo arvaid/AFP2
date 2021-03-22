@@ -46,9 +46,11 @@
 <body>
     @include('components.navbar')
 
-    @hasSection('main')
-        @yield('main')
-    @endif
+    <main class="page @hasSection('page-class') @yield('page-class') @endif">
+        @hasSection('content')
+            @yield('content')
+        @endif
+    </main>
 
     @include('components.footer')
 

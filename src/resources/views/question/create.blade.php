@@ -4,8 +4,10 @@
     Ask a new question - Brand
 @endsection
 
-@section('main')
-    <main class="page question-create-page">
+@section('page-class')
+    question-create-page
+@endsection
 
-    </main>
+@section('main')
+
 @endsection
