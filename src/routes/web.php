@@ -18,12 +18,11 @@ use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 Route::get('/', function () {
     return view('welcome');
 });
-//Javaslat külsőstől: Ha lehet ne a konstruktorban definiáljuk a middleware-eket, hanem a routes/web.php-ban
-//Route::get('question', [QuestionController::class, 'index']);
-//Route::get('question/{question}', [QuestionController::class, 'show']);
-//Route::resource('question', QuestionController::class)->except(['index', 'show'])->middleware('auth');
 
-Route::resource('question', QuestionController::class);
+Route::get('question', [QuestionController::class, 'index']);
+Route::get('question/{question}', [QuestionController::class, 'show']);
+Route::resource('question', QuestionController::class)->except(['index', 'show'])->middleware('auth');
+
 
 Route::get('/logout', [AuthenticatedSessionController::class, 'destroy']);
 

@@ -9,16 +9,6 @@ use Illuminate\Http\Request;
 class QuestionController extends Controller
 {
     /**
-     * Instantiate a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        //Javaslat külsőstől: Ha lehet ne a konstruktorban definiáljuk a middleware-eket, hanem a routes/web.php-ban
-        $this->middleware('auth')->except(['index', 'show']);
-    }
-    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
