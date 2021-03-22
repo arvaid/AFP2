@@ -11,7 +11,7 @@
                 <div class="block-heading">
                     <h2 class="text-info">Log In</h2>
                 </div>
-                <form action="{{ route('login') }}" method="post" novalidate>
+                <form action="{{ route('login') }}" method="post">
                     @csrf
                     <div class="form-group">
                         <label for="email">Email</label>
