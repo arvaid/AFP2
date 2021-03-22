@@ -15,6 +15,7 @@ class QuestionController extends Controller
      */
     public function __construct()
     {
+        //Javaslat külsőstől: Ha lehet ne a konstruktorban definiáljuk a middleware-eket, hanem a routes/web.php-ban
         $this->middleware('auth')->except(['index', 'show']);
     }
     /**
@@ -98,6 +99,9 @@ class QuestionController extends Controller
         ];
 
         return view('question.edit', $view_params);
+
+        //Javaslat külsőstől: a view_params változó létrehozása egy plusz memória művelet. Ez egy embernél nem sok, de 1000 user-nél 1000× kell megcsinálni. Javaslom inline hozd létre, ha csak lehet:
+        //return view('question.edit', ['question' => $question]);
     }
 
     /**
