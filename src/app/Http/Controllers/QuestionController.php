@@ -15,11 +15,7 @@ class QuestionController extends Controller
      */
     public function index()
     {
-        $view_params = [
-          'questions' => Question::all()
-        ];
-
-        return view('question.index', $view_params);
+        return view('question.index', ['questions' => Question::all()]);
     }
 
     /**
@@ -69,11 +65,7 @@ class QuestionController extends Controller
      */
     public function show(Question $question)
     {
-        $view_params = [
-            'question' => $question
-        ];
-
-        return view('question.show', $view_params);
+        return view('question.show', ['question' => $question]);
     }
 
     /**
@@ -84,11 +76,7 @@ class QuestionController extends Controller
      */
     public function edit(Question $question)
     {
-        $view_params = [
-            'question' => $question
-        ];
-
-        return view('question.edit', $view_params);
+        return view('question.edit', ['question' => $question]);
 
         //Javaslat külsőstől: a view_params változó létrehozása egy plusz memória művelet. Ez egy embernél nem sok, de 1000 user-nél 1000× kell megcsinálni. Javaslom inline hozd létre, ha csak lehet:
         //return view('question.edit', ['question' => $question]);
