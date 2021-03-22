@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Question;
+use App\Models\Topic;
 use Illuminate\Http\Request;
 
 class QuestionController extends Controller
@@ -37,7 +38,7 @@ class QuestionController extends Controller
      */
     public function create()
     {
-        return view ('question.create');
+        return view('question.create');
     }
 
     /**
@@ -48,7 +49,25 @@ class QuestionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $rules =  array(
+            'question_text' => 'required'
+        );
+
+        $validated = $request->validate($rules);
+
+        if (!$validated) {
+            return redirect('question.create');
+        }
+        else {
+            $question = new Question();
+            $question->question_text = $request->input('question_text');
+            $question->topic = Topic::all()->where('name', $request->input('topic'));
+            $question->user = Auth::user();
+
+            $question->save();
+        }
+
+        return redirect('question.index');
     }
 
     /**
