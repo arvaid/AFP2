@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/question', 'App\Http\Controllers\QuestionController@index')->name('question');
+Route::resource('question', 'App\Http\Controllers\QuestionController');
 
 Route::get('/logout', 'Laravel\Fortify\Http\Controllers\AuthenticatedSessionController@destroy');
 
