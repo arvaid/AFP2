@@ -28,7 +28,7 @@ class QuestionController extends Controller
      */
     public function create()
     {
-        //
+        return view ('question.create');
     }
 
     /**
@@ -50,7 +50,11 @@ class QuestionController extends Controller
      */
     public function show(Question $question)
     {
-        //
+        $view_params = [
+            'question' => $question
+        ];
+
+        return view('question.show', $view_params);
     }
 
     /**
@@ -61,7 +65,11 @@ class QuestionController extends Controller
      */
     public function edit(Question $question)
     {
-        //
+        $view_params = [
+            'question' => $question
+        ];
+
+        return view('question.edit', $view_params);
     }
 
     /**
@@ -73,7 +81,7 @@ class QuestionController extends Controller
      */
     public function update(Request $request, Question $question)
     {
-        //
+
     }
 
     /**
@@ -84,6 +92,7 @@ class QuestionController extends Controller
      */
     public function destroy(Question $question)
     {
-        //
+        $question->delete();
+        return redirect('question');
     }
 }
