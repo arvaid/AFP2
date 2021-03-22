@@ -19,8 +19,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('question', [QuestionController::class, 'index']);
-Route::get('question/{question}', [QuestionController::class, 'show']);
+Route::get('question', [QuestionController::class, 'index'])->name('question.index');
+Route::get('question/{question}', [QuestionController::class, 'show'])->name('question.name');
 Route::resource('question', QuestionController::class)->except(['index', 'show'])->middleware('auth');
 
 
