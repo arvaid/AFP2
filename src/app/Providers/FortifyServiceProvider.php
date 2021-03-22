@@ -45,7 +45,7 @@ class FortifyServiceProvider extends ServiceProvider
         Fortify::confirmPasswordView(function () {
             return view('auth.passwords.confirm');
         });
-        Fortify::resetPasswordView(function () {
+        Fortify::resetPasswordView(function ($request) {
             return view('auth.passwords.reset');
         });
         Fortify::verifyEmailView(function () {

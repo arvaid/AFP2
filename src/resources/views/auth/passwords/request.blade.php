@@ -10,14 +10,14 @@
             <div class="block-heading">
                 <h2 class="text-info">Reset Password</h2>
             </div>
-            @if (session('status'))
-                <div class="alert alert-success" role="alert">
-                    {{ session('status') }}
-                </div>
-            @endif
-            <form action="{{ route('password.email') }}" method="post" novalidate>
+            <form action="{{ route('password.request') }}" method="post" novalidate>
                 @csrf
                 <div class="form-group">
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    @endif
                     <label for="email">Email</label>
                     <input class="form-control item @error('email') is-invalid @enderror" type="email" id="email" name="email" value="{{ old('email') }}" required autocomplete="email">
                     @error('email')
