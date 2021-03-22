@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuestionController;
+use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,9 +18,11 @@ use App\Http\Controllers\QuestionController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('question', [QuestionController::class, 'index']);
+Route::get('question/{question}', [QuestionController::class, 'show']);
+Route::resource('question', QuestionController::class)->except(['index', 'show'])->middleware('auth');
 
-Route::resource('question', 'App\Http\Controllers\QuestionController');
 
-Route::get('/logout', 'Laravel\Fortify\Http\Controllers\AuthenticatedSessionController@destroy');
+Route::get('/logout', [AuthenticatedSessionController::class, 'destroy']);
 
 Route::view('home', 'home')->middleware('auth');
