@@ -10,10 +10,14 @@
             <div class="block-heading">
                 <h2 class="text-info">Reset Password</h2>
             </div>
-            <form action="{{ route('password.update') }}" method="post">
+            <form action="{{ route('password.update') }}" method="post" novalidate>
                 @csrf
 
-                <input type="hidden" name="token" value="{{ $token }}">
+                <input type="hidden" name="token" value="{{ $request->route('token') }}">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" value="{{ $request->email }}" disabled>
+                </div>
                 <div class="form-group">
                     <label for="password">New Password</label>
                     <input class="form-control item @error('password') is-invalid @enderror" type="password" id="password" name="password" required>
