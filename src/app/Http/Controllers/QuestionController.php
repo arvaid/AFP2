@@ -26,7 +26,8 @@ class QuestionController extends Controller
     public function index()
     {
         $view_params = [
-          'questions' => Question::all()
+            'questions' => Question::all(),
+            'defaultTopic'=> Topic::first()->id
         ];
 
         return view('question.index', $view_params);
@@ -39,7 +40,7 @@ class QuestionController extends Controller
      */
     public function create()
     {
-        return view('question.create');
+        return view('question.create', ['topics' => Topic::all()]);
     }
 
     /**
