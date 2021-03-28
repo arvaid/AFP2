@@ -24,6 +24,7 @@ class QuestionFactory extends Factory
     public function definition()
     {
         return [
+            'question_title' => $this->faker->sentence,
             'question_text'=>$this->faker->paragraph,
             'user_id' => User::all()->random()->id,
             'topic_id' => Topic::all()->random()->id,
