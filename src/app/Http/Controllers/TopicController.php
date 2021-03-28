@@ -10,11 +10,11 @@ class TopicController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Http\Response
      */
     public function index()
     {
-        //
+        return view('topic.index', ['topics' => Topic::all()]);
     }
 
     /**
@@ -42,11 +42,11 @@ class TopicController extends Controller
      * Display the specified resource.
      *
      * @param  \App\Models\Topic  $topic
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Http\Response
      */
     public function show(Topic $topic)
     {
-        //
+        return view('topic.show', ['topic' => $topic]);
     }
 
     /**
