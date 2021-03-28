@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TopicController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuestionController;
 use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
@@ -24,6 +25,8 @@ Route::get('/', function () {
 //Route::resource('question', QuestionController::class)->except(['index', 'show'])->middleware('auth');
 
 Route::resource('question', QuestionController::class);
+Route::get('/topic', [TopicController::class, 'index'])->name('topic.index'); //TODO: Eltávolítani, egyelőre test miatt van bent
+Route::get('/topic/{topic}', [TopicController::class, 'show'])->name('topic.show'); //TODO: Eltávolítani, egyelőre test miatt van bent
 
 Route::get('/logout', [AuthenticatedSessionController::class, 'destroy']);
 
