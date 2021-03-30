@@ -41,6 +41,7 @@
     @stack('css')
     @stack('fonts')
     @stack('icons')
+    @stack('beforePageLoads')
 </head>
 
 <body>
@@ -53,8 +54,7 @@
     </main>
 
     @include('components.footer')
-
-    @stack('scripts')
+    @stack('scripts') {{-- <script src="{{asset('js/pelda.js')}}" defer></script> A 'defer' kulcsszóval lehet megmondani, hogy a végén töltse be a script-et --}}
 </body>
 
 </html>
