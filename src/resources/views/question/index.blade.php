@@ -3,7 +3,8 @@
 @push('scripts')
     <script src="{{ asset('js/question-handler.js') }}" type="application/javascript"></script>
     <script type="application/javascript" defer>
-        loadTopics("{{route('topic.index')}}")
+        loadTopics("{{route('topic.index')}}") // TODO: ezt nem szerver oldalon kellene megoldani? vagy most hogy van?
+        // a templatet legalább elrontja... hogy lett dupla footer? xd
         loadQuestionsFor("{{ $defaultTopic }}", "{{route('topic.show', '')}}")
     </script>
 @endpush
