@@ -1,10 +1,3 @@
-@extends('layouts.app')
-
-@section('page-class')
-    topic-list-page
-@endsection
-
-@section('content')
 <section class="page container-fluid border">
     <table >
         <thead>
@@ -19,4 +12,4 @@
         </tbody>
     </table>
 </section>
-@endsection
+
