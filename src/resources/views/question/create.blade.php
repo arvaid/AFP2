@@ -18,7 +18,6 @@
 @endpush
 
 @section('content')
-
     <section class="page container-fluid">
         <form action="{{ $isUpdate ? route('question.update', $question) : route('question.create') }}" method="post" class="card m-2 p-2 m-md-5 p-md-5">
             @csrf

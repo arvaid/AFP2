@@ -22,10 +22,10 @@
     use Illuminate\Support\Str;
         /** @var Question[] $questions */
     ?>
-<section class="page container-fluid">
-    <div class="row mt-5">
-        <div class="col-sm-auto" id="topicList">Test</div>
-        <div class="col-sm" id="questionList">Test2</div>
-    </div>
-</section>
+    <section class="page container-fluid">
+        <div class="row mt-5">
+            <div class="col-sm-auto" id="topicList">Test</div>
+            <div class="col-sm" id="questionList">Test2</div>
+        </div>
+    </section>
 @endsection

@@ -1,4 +1,11 @@
-<main class="page question-list-page container-fluid border">
+@extends('layouts.app')
+
+@section('page-class')
+    topic-list-page
+@endsection
+
+@section('content')
+<section class="page container-fluid border">
     <table >
         <thead>
         <tr>
@@ -11,4 +18,5 @@
         @endforeach
         </tbody>
     </table>
-</main>
+</section>
+@endsection
