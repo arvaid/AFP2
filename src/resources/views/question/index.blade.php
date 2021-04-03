@@ -4,7 +4,7 @@
     <script src="{{ asset('js/question-handler.js') }}" type="application/javascript"></script>
     <script type="application/javascript" defer>
         loadTopics("{{route('topic.index')}}")
-        loadQuestionsFor("{{ $defaultTopic }}", "{{route('topic.show', '')}}")
+        loadQuestionsFor("{{route('topic.show', ['topic' => $defaultTopic])}}")
     </script>
 @endpush
 

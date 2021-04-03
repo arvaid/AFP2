@@ -21,7 +21,7 @@ Route::get('/', function () {
 });
 
 Route::get('question', [QuestionController::class, 'index'])->name('question.index');
-Route::get('question/{question}', [QuestionController::class, 'show'])->name('question.name');
+Route::get('question/{question}', [QuestionController::class, 'show'])->name('question.show');
 Route::resource('question', QuestionController::class)->except(['index', 'show'])->middleware('auth');
 
 Route::get('/topic', [TopicController::class, 'index'])->name('topic.index'); //TODO: Eltávolítani, egyelőre test miatt van bent
