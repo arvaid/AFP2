@@ -20,9 +20,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('question', QuestionController::class)->except(['index', 'show'])->middleware('auth');
 Route::get('question', [QuestionController::class, 'index'])->name('question.index');
 Route::get('question/{question}', [QuestionController::class, 'show'])->name('question.show');
-Route::resource('question', QuestionController::class)->except(['index', 'show'])->middleware('auth');
 
 Route::get('/topic', [TopicController::class, 'index'])->name('topic.index'); //TODO: Eltávolítani, egyelőre test miatt van bent
 Route::get('/topic/{topic}', [TopicController::class, 'show'])->name('topic.show'); //TODO: Eltávolítani, egyelőre test miatt van bent
