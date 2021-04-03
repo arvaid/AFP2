@@ -17,17 +17,16 @@ use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('welcome'); //TODO: Külön HomeController-t illik csinálni neki
+})->name('home');
 
 Route::resource('question', QuestionController::class)->except(['index', 'show'])->middleware('auth');
 Route::get('question', [QuestionController::class, 'index'])->name('question.index');
 Route::get('question/{question}', [QuestionController::class, 'show'])->name('question.show');
 
-Route::get('/topic', [TopicController::class, 'index'])->name('topic.index'); //TODO: Eltávolítani, egyelőre test miatt van bent
-Route::get('/topic/{topic}', [TopicController::class, 'show'])->name('topic.show'); //TODO: Eltávolítani, egyelőre test miatt van bent
+Route::resource('topic', TopicController::class)->except(['index', 'show'])->middleware('auth');
+Route::get('/topic', [TopicController::class, 'index'])->name('topic.index');
+Route::get('/topic/{topic}', [TopicController::class, 'show'])->name('topic.show');
 
 
-Route::get('/logout', [AuthenticatedSessionController::class, 'destroy']);
-
-Route::view('home', 'home')->middleware('auth');
+Route::get('/logout', [AuthenticatedSessionController::class, 'destroy'])->name('auth.logout');
