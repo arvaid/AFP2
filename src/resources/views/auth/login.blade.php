@@ -1,12 +1,4 @@
-@extends('layouts.app')
-
-@section('title')
-    Login - Brand
-@endsection
-
-@section('page-class')
-    login-page
-@endsection
+@extends('layouts.app', ['title' => 'Login'])
 
 @section('content')
     <section class="clean-block clean-form dark">

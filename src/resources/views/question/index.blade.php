@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['title' => 'Questions'])
 
 @push('scripts')
     <script src="{{ asset('js/question-handler.js') }}" type="application/javascript"></script>
@@ -7,10 +7,6 @@
         loadQuestionsFor("{{route('topic.show', ['topic' => $defaultTopic])}}")
     </script>
 @endpush
-
-@section('title')
-    Questions - Brand
-@endsection
 
 @section('content')
     <?php

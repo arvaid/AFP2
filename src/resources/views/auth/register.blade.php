@@ -1,12 +1,4 @@
-@extends('layouts.app')
-
-@section('title')
-    Register - Brand
-@endsection
-
-@section('page-class')
-    registration-page
-@endsection
+@extends('layouts.app', ['title' => 'Register'])
 
 @section('content')
     <section class="clean-block clean-form dark">

@@ -1,8 +1,4 @@
-@extends('layouts.app')
-
-@section('title')
-    Edit question - Brand
-@endsection
+@extends('layouts.app', ['title' => 'Question Edit'])
 
 @section('content')
 

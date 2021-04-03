@@ -1,8 +1,4 @@
-@extends('layouts.app')
-
-@section('title')
-    Confirm Password - Brand
-@endsection
+@extends('layouts.app', ['title' => 'Confirm password'])
 
 @section('content')
 <div class="container">

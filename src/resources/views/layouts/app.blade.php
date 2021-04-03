@@ -8,9 +8,7 @@
     <!-- CSRF Token -->
 {{--    <meta name="csrf-token" content="{{ csrf_token() }}">--}} <!-- Ha nem muszáj ne legyen itt -->
 
-    @hasSection('title')
-        <title>@yield('title')</title>
-    @endif
+    <title>{{ $title ?? 'NamesAreOverrated' }}</title>
 
     <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -28,9 +26,7 @@
     @include('components.navbar')
 
     <main class="page">
-        @hasSection('content')
-            @yield('content')
-        @endif
+        @yield('content')
     </main>
 
     @include('components.footer')

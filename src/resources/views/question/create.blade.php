@@ -2,11 +2,7 @@
     $isUpdate = isset($question)
 ?>
 
-@extends('layouts.app')
-
-@section('title')
-    Ask a new question - Brand
-@endsection
+@extends('layouts.app', ['title' => 'Ask a new question'])
 
 @push('beforePageLoads')
     <script src="https://cdn.tiny.cloud/1/3jaiexnly731ggors3gs8kyqi5bhnkvu8ztjtv9684h70rut/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>

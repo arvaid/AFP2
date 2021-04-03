@@ -1,8 +1,4 @@
-@extends('layouts.app')
-
-@section('title')
-    Reset password - Brand
-@endsection
+@extends('layouts.app', ['title' => 'Reset Password'])
 
 @section('content')
     <section class="clean-block clean-form dark">

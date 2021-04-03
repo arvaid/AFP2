@@ -1,11 +1,7 @@
-@extends('layouts.app')
-
-@section('title')
-    Home - Brand
-@endsection
+@extends('layouts.app', ['title' => 'Home'])
 
 @section('content')
-    <section class="clean-block clean-hero" style="background-image:url(&quot;{{ asset('/img/tech/image4.jpg') }}&quot;);color:rgba(9, 162, 255, 0.85);">
+    <section class="clean-block clean-hero" style="background-image:url('{{ asset('/img/tech/image4.jpg') }}');color:rgba(9, 162, 255, 0.85);">
         <div class="text">
             <h2><br><strong>We Love people who ask</strong>.</h2>
             <p>
