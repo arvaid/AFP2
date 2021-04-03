@@ -30,7 +30,7 @@ class QuestionController extends Controller
      */
     public function create()
     {
-        return view('question.create', ['topics' => Topic::all()]);
+        return view('question.form', ['topics' => Topic::all()]);
     }
 
     /**
@@ -48,7 +48,7 @@ class QuestionController extends Controller
         $validated = $request->validate($rules);
 
         if (!$validated) {
-            return redirect('question.create');
+            return redirect('question.form');
         }
         else {
             $question = new Question();
@@ -81,7 +81,7 @@ class QuestionController extends Controller
      */
     public function edit(Question $question)
     {
-        return view('question.edit', ['question' => $question]);
+        return view('question.form', ['question' => $question, 'topics' => Topic::all()]);
 
         //Javaslat külsőstől: a view_params változó létrehozása egy plusz memória művelet. Ez egy embernél nem sok, de 1000 user-nél 1000× kell megcsinálni. Javaslom inline hozd létre, ha csak lehet:
         //return view('question.edit', ['question' => $question]);
