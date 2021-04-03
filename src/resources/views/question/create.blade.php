@@ -49,7 +49,7 @@
                         <label for="question_text" class="h4">Text:</label>
                         <textarea name="question_text" id="question_text"
                                class="form-control @error('question_text') is-invalid @enderror">
-                            {{ $isUpdate ? $question->topic->name : old('question_text') }}
+                            {{ $isUpdate ? $question->question_text : old('question_text') }}
                         </textarea>
                         @error('question_text')
                         <div class="invalid-feedback" role="alert">
