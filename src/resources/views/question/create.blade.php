@@ -8,10 +8,6 @@
     Ask a new question - Brand
 @endsection
 
-@section('page-class')
-    question-create-page
-@endsection
-
 @push('beforePageLoads')
     <script src="https://cdn.tiny.cloud/1/3jaiexnly731ggors3gs8kyqi5bhnkvu8ztjtv9684h70rut/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <script src="{{ asset('js/tiny-mce.config.js') }}" defer></script>

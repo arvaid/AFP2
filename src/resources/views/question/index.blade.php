@@ -12,10 +12,6 @@
     Questions - Brand
 @endsection
 
-@section('page-class')
-    question-list-page
-@endsection
-
 @section('content')
     <?php
     use App\Models\Question;

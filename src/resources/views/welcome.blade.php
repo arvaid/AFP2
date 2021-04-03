@@ -4,10 +4,6 @@
     Home - Brand
 @endsection
 
-@section('page-class')
-    landing-page
-@endsection
-
 @section('content')
     <section class="clean-block clean-hero" style="background-image:url(&quot;{{ asset('/img/tech/image4.jpg') }}&quot;);color:rgba(9, 162, 255, 0.85);">
         <div class="text">

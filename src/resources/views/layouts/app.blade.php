@@ -27,7 +27,7 @@
 <body>
     @include('components.navbar')
 
-    <main class="page @hasSection('page-class') @yield('page-class') @endif">
+    <main class="page">
         @hasSection('content')
             @yield('content')
         @endif
