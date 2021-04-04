@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AnswerController;
 use App\Http\Controllers\TopicController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuestionController;
@@ -28,5 +29,10 @@ Route::resource('topic', TopicController::class)->except(['index', 'show'])->mid
 Route::get('/topic', [TopicController::class, 'index'])->name('topic.index');
 Route::get('/topic/{topic}', [TopicController::class, 'show'])->name('topic.show');
 
+Route::resource('answer', AnswerController::class)->except(['create'])->middleware('auth');
+Route::get('answer/create/{question}', [AnswerController::class, 'create'])->name('answer.create')->middleware('auth');
 
 Route::get('/logout', [AuthenticatedSessionController::class, 'destroy'])->name('auth.logout');
+
+Route::post('answer/{answer}/inc', [AnswerController::class, 'scoreIncrement'])->name('answer.score.increment')->middleware('auth');
+Route::post('answer/{answer}/dec', [AnswerController::class, 'scoreDecrement'])->name('answer.score.decrement')->middleware('auth');
