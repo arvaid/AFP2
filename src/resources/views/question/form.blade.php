@@ -6,12 +6,13 @@
 
 @push('beforePageLoads')
     <script src="https://cdn.tiny.cloud/1/3jaiexnly731ggors3gs8kyqi5bhnkvu8ztjtv9684h70rut/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
-    <script src="{{ asset('js/tiny-mce.config.js') }}" defer></script>
+    <script src="{{ asset('js/tiny-mce.config.js') }}"></script>
+    <script type="application/javascript" defer> richText('question_text') </script>
 @endpush
 
 @section('content')
     <section class="page container-fluid">
-        <form action="{{ $isUpdate ? route('question.update', $question) : route('question.create') }}" method="post" class="card m-2 p-2 m-md-5 p-md-5">
+        <form action="{{ $isUpdate ? route('question.update', $question) : route('question.store') }}" method="post" class="card m-2 p-2 m-md-5 p-md-5">
             @csrf
             @if($isUpdate)
                 @method('put')
