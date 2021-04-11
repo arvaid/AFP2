@@ -36,7 +36,7 @@
                     </button>
                 </div>
                 <div class="d-none d-md-block col-md-8"></div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-3 text-md-right">
                     <form action="{{ route('answer.destroy', [$ans]) }}" method="post" class="btn-group">
                         @csrf
                         @method('delete')
