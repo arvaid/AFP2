@@ -15,7 +15,10 @@
         /** @var Question[] $questions */
     ?>
     <section class="page container-fluid">
-        <div class="row mt-5">
+        <div class="row ml-1 pt-2 pt-md-3">
+            <a href="{{route('question.create')}}" class="btn btn-outline-info"> New Question </a>
+        </div>
+        <div class="row mt-3">
             <div class="col-sm-auto" id="topicList">Test</div>
             <div class="col-sm" id="questionList">Test2</div>
         </div>
