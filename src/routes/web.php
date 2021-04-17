@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AnswerController;
 use App\Http\Controllers\TopicController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuestionController;
 use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
@@ -21,6 +22,9 @@ Route::get('/', function () {
     return view('welcome'); //TODO: Külön HomeController-t illik csinálni neki
 })->name('home');
 
+Route::get('user/profile', [UserController::class, 'profile'])->middleware('auth')->name('user.profile');
+Route::resource('user', UserController::class)->middleware('auth');
+
 Route::resource('question', QuestionController::class)->except(['index', 'show'])->middleware('auth');
 Route::get('question', [QuestionController::class, 'index'])->name('question.index');
 Route::get('question/{question}', [QuestionController::class, 'show'])->name('question.show');
@@ -36,3 +40,4 @@ Route::get('/logout', [AuthenticatedSessionController::class, 'destroy'])->name(
 
 Route::post('answer/{answer}/inc', [AnswerController::class, 'scoreIncrement'])->name('answer.score.increment')->middleware('auth');
 Route::post('answer/{answer}/dec', [AnswerController::class, 'scoreDecrement'])->name('answer.score.decrement')->middleware('auth');
+
