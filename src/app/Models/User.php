@@ -19,11 +19,33 @@ class User extends Authenticatable
         'username', 'email', 'password'
     ];
 
-    public function answers(){
+    protected $appends = ['rank'];
+
+    public function answers()
+    {
         return $this->hasMany(Answer::class);
     }
 
-    public function questions(){
+    public function questions()
+    {
         return $this->hasMany(Question::class);
+    }
+
+    public function getRankAttribute()
+    {
+        $this->score = $this->score ?? 0;
+        if ($this->score > 300) {
+            return 'Nagyon menő';
+        }
+
+        if ($this->score > 200) {
+            return 'Menő';
+        }
+
+        if($this->score > 100){
+            return 'Eh';
+        }
+
+        return 'Fúj';
     }
 }
