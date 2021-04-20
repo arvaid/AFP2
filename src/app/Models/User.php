@@ -35,17 +35,17 @@ class User extends Authenticatable
     {
         $this->score = $this->score ?? 0;
         if ($this->score > 300) {
-            return 'Nagyon menő';
+            return 'Great job';
         }
 
         if ($this->score > 200) {
-            return 'Menő';
+            return 'Nice';
         }
 
         if($this->score > 100){
-            return 'Eh';
+            return 'Could be better';
         }
 
-        return 'Fúj';
+        return 'Low';
     }
 }
